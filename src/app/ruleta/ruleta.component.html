@@ -1,0 +1,16 @@
+<div class="ruleta">
+    <div *ngFor="let equipo of equipos; let i = index" [ngClass]="{'resaltado': equipoResaltado === i}">
+      <img [src]="equipo" alt="Equipo">
+    </div>
+</div>
+
+  <section>
+    <div class="button-girar">
+      <button mat-fab color="accent" (click)="girarRuleta()">Girar Ruleta</button>
+    </div>
+  </section>
+
+<div *ngIf="resultadoSeleccion">Resultado: <img [src]= "resultadoSeleccion" alt="Resultado"></div>
+
+<!--<mat-slide-toggle>Toggle me!</mat-slide-toggle>-->
+

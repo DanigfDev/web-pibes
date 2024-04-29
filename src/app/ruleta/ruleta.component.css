@@ -1,0 +1,23 @@
+.ruleta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+
+  img {
+    height: 80px;
+    width: auto;
+    margin: auto;
+  }
+
+  .resaltado {
+    background-color: yellow; /* Cambia el color de fondo cuando el equipo está resaltado */
+  }
+
+  .button-girar {
+    display: flex;
+    justify-content: center;
+    margin-top: -22%;
+  }
+
